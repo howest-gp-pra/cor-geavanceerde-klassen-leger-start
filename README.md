@@ -1,4 +1,6 @@
 # cor-geavanceerde-klassen-leger-start
+## bekijk eerst het filmpje "Geavanceerde klassen : oefening Leger opstart"
+
 Deze oefening behandelt de leerstof rond geavanceerde klassen, meer bepaald overerving en polymorfisme.
 
 De bedoeling is dat we een leger samenstellen dat bestaat uit generaals, majoors, luitenanten, adjudanten, sergeanten, korporaals en soldaten.
@@ -105,4 +107,17 @@ De klasse Soldaat erft over van Troep en heeft enkel een argumentloze constructo
 * eigenschap gewicht instellen op 1
 * eigenschap AantalRechtstreeksOndergeschikten instellen op 0
 
+In je WPF venster zorg je er voor dat na het laden van je venster 1 of 2 generaals aanmaakt.  In principe zouden hierdoor automatisch ook alle andere militairen moeten aangemaakt worden.  
+
+LstGeneraals vul je met die generaals.  
+
+Klik je op een generaal dan :   
+* dienen zijn Majoors afgebeeld te worden in lstMajoors
+* dient onderaan de naam, de rang, het aantal sterren in de juiste kleur, en het totaal aantal ondergeschikten te verschijnen.  
+
+Klik je op een majoor dan : 
+* dienen zijn Luitenanten afgebeeld te worden in lstLuitenanten
+* dient onderaan de naam, de rang, het aantal sterren in de juiste kleur, en het totaal aantal ondergeschikten te verschijnen.  
+
+...
 
