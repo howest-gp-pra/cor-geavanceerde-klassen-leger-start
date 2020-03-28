@@ -63,36 +63,43 @@ Per soort (generaal, majoor ... soldaat) dien je bij te houden hoeveel er van ge
 De klasse Officier erft over van Militair en heeft enkel een argumentloze constructor die de eigenschap Kleur vult met de waarde "Goud".  
 De klasse Onderofficier erft over van Militair en heeft enkel een argumentloze constructor die de eigenschap Kleur vult met de waarde "Zilver".  
 De klasse Troep erft over van Militair en heeft enkel een argumentloze constructor die de eigenschap Kleur vult met de waarde "Brons".  
+
 De klasse Generaal erft over van Officier en heeft enkel een argumentloze constructor die het volgende doet : 
 * eigenschap Sterren instellen op 3
 * eigenschap gewicht instellen op 7
 * eigenschap AantalRechtstreeksOndergeschikten instellen op 3
 * aan de List-eigenschap RechtstreeksOndergeschikte evenveel Majoors toevoegen als de waarde van AantalRechtstreeksOndergeschikten
+
 De klasse Majoor erft over van Officier en heeft enkel een argumentloze constructor die het volgende doet : 
 * eigenschap Sterren instellen op 2
 * eigenschap gewicht instellen op 6
 * eigenschap AantalRechtstreeksOndergeschikten instellen op 5
 * aan de List-eigenschap RechtstreeksOndergeschikte evenveel Leutenanten toevoegen als de waarde van AantalRechtstreeksOndergeschikten
+
 De klasse Luitenant erft over van Officier en heeft enkel een argumentloze constructor die het volgende doet : 
 * eigenschap Sterren instellen op 1
 * eigenschap gewicht instellen op 5
 * eigenschap AantalRechtstreeksOndergeschikten instellen op 3
 * aan de List-eigenschap RechtstreeksOndergeschikte evenveel Adjudanten toevoegen als de waarde van AantalRechtstreeksOndergeschikten
+
 De klasse Adjudant erft over van Onderofficier en heeft enkel een argumentloze constructor die het volgende doet : 
 * eigenschap Sterren instellen op 2
 * eigenschap gewicht instellen op 4
 * eigenschap AantalRechtstreeksOndergeschikten instellen op 3
 * aan de List-eigenschap RechtstreeksOndergeschikte evenveel Sergeanten toevoegen als de waarde van AantalRechtstreeksOndergeschikten
+
 De klasse Sergeant erft over van Onderofficier en heeft enkel een argumentloze constructor die het volgende doet : 
 * eigenschap Sterren instellen op 1
 * eigenschap gewicht instellen op 3
 * eigenschap AantalRechtstreeksOndergeschikten instellen op 4
 * aan de List-eigenschap RechtstreeksOndergeschikte evenveel Korporaals toevoegen als de waarde van AantalRechtstreeksOndergeschikten
+
 De klasse Korporaal erft over van Troep en heeft enkel een argumentloze constructor die het volgende doet : 
 * eigenschap Sterren instellen op 2
 * eigenschap gewicht instellen op 2
 * eigenschap AantalRechtstreeksOndergeschikten instellen op 5
 * aan de List-eigenschap RechtstreeksOndergeschikte evenveel Soldaten toevoegen als de waarde van AantalRechtstreeksOndergeschikten
+
 De klasse Soldaat erft over van Troep en heeft enkel een argumentloze constructor die het volgende doet : 
 * eigenschap Sterren instellen op 1
 * eigenschap gewicht instellen op 1
