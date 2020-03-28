@@ -1,6 +1,8 @@
 # cor-geavanceerde-klassen-leger-start
 ## bekijk eerst het filmpje "Geavanceerde klassen : oefening Leger opstart"
 
+[ga naar filmpje in Leho](https://howest.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=803dae2e-9130-4abc-bd82-ab8c00d86f12)
+
 Deze oefening behandelt de leerstof rond geavanceerde klassen, meer bepaald overerving en polymorfisme.
 
 De bedoeling is dat we een leger samenstellen dat bestaat uit generaals, majoors, luitenanten, adjudanten, sergeanten, korporaals en soldaten.
